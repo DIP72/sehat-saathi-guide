@@ -67,4 +67,34 @@ const LoadingScreen: React.FC<LoadingScreenProps> = ({
       aria-busy="true"
     >
       {/* Logo */}
-      <div clas
+      <div className="relative mb-8">
+        <Heart
+          className={`w-20 h-20 text-white ${
+            prefersReducedMotion ? '' : 'animate-pulse'
+          }`}
+          fill="white"
+        />
+      </div>
+
+      {/* App Name */}
+      <h1 className="text-4xl font-bold text-white mb-8">{appName}</h1>
+
+      {/* Progress Bar */}
+      <div className="w-64 bg-white/30 rounded-full h-2 overflow-hidden">
+        <div
+          className="bg-white h-full transition-all duration-300 ease-out"
+          style={{ width: `${progress}%` }}
+          role="progressbar"
+          aria-valuenow={progress}
+          aria-valuemin={0}
+          aria-valuemax={100}
+        />
+      </div>
+
+      {/* Loading Text */}
+      <p className="text-white mt-4 text-lg">{loadingText}...</p>
+    </div>
+  );
+};
+
+export default LoadingScreen;
