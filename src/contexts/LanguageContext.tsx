@@ -159,7 +159,7 @@ const translations: Record<Language, Translations> = {
     rightsReserved: 'सर्वाधिकार सुरक्षित',
   },
   en: {
-    appName: 'Swasthya Saathi',
+    appName: 'Sehat Saathi',
     home: 'Home',
     symptomTracker: 'Symptom Tracker',
     healthTips: 'Health Tips',
@@ -231,7 +231,7 @@ const translations: Record<Language, Translations> = {
     support: 'Support',
     helpCenter: 'Help Center',
     feedback: 'Feedback',
-    contact: 'Contact Us',
+    contact: 'Contact',
     followUs: 'Follow Us',
     rightsReserved: 'All Rights Reserved',
   },
