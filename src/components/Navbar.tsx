@@ -33,9 +33,11 @@ import {
 } from 'lucide-react';
 
 const Navbar: React.FC = () => {
-  const { t, language, setLanguage, languageNames, availableLanguages, currentLanguageName } = useLanguage();
+  const { t, language, setLanguage, languageNames, availableLanguages } = useLanguage();
   const { user, isAuthenticated, logout } = useAuth();
   const { itemCount } = useCart();
+  const currentLanguageName =
+  languageNames[language] || language.toUpperCase();
 
   const { theme, setTheme } = useTheme();
   const isDark = theme === "dark";
@@ -54,6 +56,8 @@ const Navbar: React.FC = () => {
   const moreItems = [
     { path: '/schemes', label: t.sarkariYojana, icon: '🏛️' },
     { path: '/nearby', label: t.nearbyHospitals, icon: '🏥' },
+    { path: "/medical-history", label: "Medical History", icon: "🧾" },
+
   ];
 
   const isActive = (path: string) => location.pathname === path;
