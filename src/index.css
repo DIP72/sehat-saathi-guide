@@ -36,7 +36,7 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    --background: 82 100% 94%;      /* #F0FFDF  all same changes happen from HEX to HSL */
+    --background: 82 100% 94%;    /* #F0FFDF  all same changes happen from HEX to HSL */
     --foreground: 150 30% 15%;
 
     --card: 0 0% 100%;
@@ -45,16 +45,16 @@ All colors MUST be HSL.
     --popover: 0 0% 100%;
     --popover-foreground: 150 30% 15%;
 
-    --primary: 97 52% 71%;          /* #A8DF8E */
+    --primary: 97 52% 54%;          /* #A8DF8E */
     --primary-foreground: 0 0% 100%;
 
-    --secondary: 82 100% 94%;       /* #F0FFDF */
+    --secondary: 82 100% 90%;       /* #F0FFDF */
     --secondary-foreground: 142 72% 25%;
 
-    --muted: 140 20% 94%;
+    --muted: 140 20% 86%;
     --muted-foreground: 150 15% 40%;
 
-    --accent: 349 100% 83%;         /* #FFAAB8 */
+    --accent: 349 100% 72%;         /* #FFAAB8 */
     --accent-foreground: 150 30% 15%;
 
     --destructive: 0 84% 60%;
@@ -66,24 +66,24 @@ All colors MUST be HSL.
 
     --radius: 0.75rem;
 
-    --sidebar-background: 142 40% 97%;
+    --sidebar-background: 142 40% 90%;
     --sidebar-foreground: 150 30% 15%;
     --sidebar-primary: 142 72% 29%;
     --sidebar-primary-foreground: 0 0% 100%;
-    --sidebar-accent: 142 40% 92%;
+    --sidebar-accent: 142 40% 88%;
     --sidebar-accent-foreground: 142 72% 25%;
     --sidebar-border: 142 30% 85%;
     --sidebar-ring: 142 72% 29%;
 
-    --chart-1: 142 72% 35%;
-    --chart-2: 85 60% 50%;
+    --chart-1: 142 72% 30%;
+    --chart-2: 85 60% 44%;
     --chart-3: 180 50% 40%;
     --chart-4: 45 90% 55%;
     --chart-5: 0 75% 55%;
 
     --sidebar: 142 40% 97%;
 
-    --success: 142 72% 35%;
+    --success: 142 72% 30%;
     --success-foreground: 0 0% 100%;
     --warning: 45 90% 55%;
     --warning-foreground: 150 30% 15%;
@@ -117,7 +117,7 @@ All colors MUST be HSL.
     --popover: 150 25% 12%;
     --popover-foreground: 140 20% 95%;
 
-    --primary: 142 60% 45%;
+    --primary: 142 60% 40%;
     --primary-foreground: 150 30% 8%;
 
     --secondary: 150 20% 18%;
@@ -138,22 +138,22 @@ All colors MUST be HSL.
 
     --sidebar-background: 150 25% 10%;
     --sidebar-foreground: 140 20% 95%;
-    --sidebar-primary: 142 60% 45%;
+    --sidebar-primary: 142 60% 40%;
     --sidebar-primary-foreground: 150 30% 8%;
     --sidebar-accent: 150 20% 18%;
     --sidebar-accent-foreground: 142 60% 70%;
     --sidebar-border: 150 20% 22%;
     --sidebar-ring: 142 60% 45%;
 
-    --chart-1: 142 60% 50%;
-    --chart-2: 85 50% 55%;
+    --chart-1: 142 60% 45%;
+    --chart-2: 85 50% 50%;
     --chart-3: 180 45% 50%;
     --chart-4: 45 85% 60%;
     --chart-5: 0 70% 60%;
 
     --sidebar: 150 25% 10%;
 
-    --success: 142 60% 45%;
+    --success: 142 60% 40%;
     --success-foreground: 0 0% 100%;
     --warning: 45 85% 55%;
     --warning-foreground: 150 30% 10%;
