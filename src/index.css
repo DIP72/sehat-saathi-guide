@@ -361,6 +361,16 @@ feature-branch
 .skeleton-loading {
   animation: skeleton-pulse 1.5s ease-in-out infinite;
 }
+
+/* Hide scrollbar but keep functionality - for mobile overflow areas */
+.scrollbar-hide {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;     /* Firefox */
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;  /* Chrome, Safari and Opera */
+}
  feature-branch
 
 html, body {
