@@ -40,6 +40,7 @@ import Offers from "@/components/Offers";
 import OfflineIndicator from "@/components/OfflineIndicator";
 import HelpCenter from '@/pages/HelpCenter';
 import HelpArticle from '@/pages/HelpArticle';
+import VoiceNavigation from "@/components/voice/VoiceNavigation";
 import ContactUs from "@/pages/ContactUs";
 
 const queryClient = new QueryClient();
@@ -158,8 +159,10 @@ const App = () => {
                       <Route path="*" element={<NotFound />} />
                     </Routes>
                     <Footer />
-                    {/* NEW: Add the floating scroll to top button */}
+                    {/* Floating scroll to top button */}
                     <ScrollToTopButton />
+                    {/* Voice Navigation - Floating mic button */}
+                    <VoiceNavigation />
                   </div>
                 </BrowserRouter>
               </TooltipProvider>
