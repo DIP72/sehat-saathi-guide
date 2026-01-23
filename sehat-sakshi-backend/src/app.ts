@@ -13,6 +13,9 @@ import analyticsRoutes from "./routes/analytics";
 import syncRoutes from "./routes/sync";
 import forumRoutes from "./routes/forum";
 import contactRoutes from "./routes/contact";
+import aiRoutes from "./routes/ai";
+import caregiverRoutes from "./routes/caregiver";
+import path from "path";
 
 const app = express();
 
@@ -79,5 +82,7 @@ app.use("/api/analytics", analyticsRoutes);
 app.use("/api/sync", syncRoutes);
 app.use("/api/forum", forumRoutes);
 app.use("/api/contact", contactRoutes);
+app.use("/api/ai", aiRoutes);
+app.use("/api/caregivers", caregiverRoutes);
 
 export default app;
