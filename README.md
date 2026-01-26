@@ -205,7 +205,7 @@ Contributions are what make the open-source community such an amazing place to l
 
 ---
 
-## � GSSoC 2025 Guidelines
+## � EWOCS 2025 Guidelines
 
 ### 📋 For Participants
 
