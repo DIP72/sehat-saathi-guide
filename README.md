@@ -102,21 +102,60 @@ Sehat Saathi is built to be inclusive. We currently support the following langua
 
 | Technology | Usage | Badge |
 |------------|-------|-------|
-| React | Frontend Framework | ![React](https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB) |
-| TypeScript | Programming Language | ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat&logo=typescript&logoColor=white) |
-| Vite | Build Tool | ![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat&logo=vite&logoColor=white) |
-| Tailwind CSS | Styling Framework | ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38BDF8?style=flat&logo=tailwind-css&logoColor=white) |
-| Shadcn/ui | UI Components | ![Shadcn/ui](https://img.shields.io/badge/Shadcn/ui-000000?style=flat&logo=react&logoColor=white) |
-| Lucide React | Icons | ![Lucide](https://img.shields.io/badge/Lucide-000000?style=flat&logo=lucide&logoColor=white) |
-| TanStack Query | State Management | ![TanStack Query](https://img.shields.io/badge/TanStack_Query-FF4154?style=flat&logo=react-query&logoColor=white) |
-| React Router | Routing | ![React Router](https://img.shields.io/badge/React_Router-CA4245?style=flat&logo=react-router&logoColor=white) |
-| Leaflet | Maps | ![Leaflet](https://img.shields.io/badge/Leaflet-199900?style=flat&logo=leaflet&logoColor=white) |
-| Recharts | Data Visualization | ![Recharts](https://img.shields.io/badge/Recharts-000000?style=flat&logo=recharts&logoColor=white) |
-| Node.js | Backend Runtime | ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat&logo=node.js&logoColor=white) |
-| Express | Backend Framework | ![Express](https://img.shields.io/badge/Express-000000?style=flat&logo=express&logoColor=white) |
-| MongoDB | Database | ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat&logo=mongodb&logoColor=white) |
-| Socket.io | Real-time Communication | ![Socket.io](https://img.shields.io/badge/Socket.io-010101?style=flat&logo=socket.io&logoColor=white) |
-| JWT | Authentication | ![JWT](https://img.shields.io/badge/JWT-000000?style=flat&logo=json-web-tokens&logoColor=white) |
+| Frontend Framework | Core | React |
+| Programming Language | Core | TypeScript |
+| Build Tool | Core | Vite |
+| Styling Framework | Core | Tailwind CSS |
+| UI Components | UI | Shadcn/ui |
+| Icons | UI | Lucide React |
+| State Management | Data | TanStack Query |
+| Routing | Navigation | React Router |
+| Maps | Features | Leaflet |
+| Data Visualization | Features | Recharts |
+| Backend Runtime | Server | Node.js |
+| Backend Framework | Server | Express |
+| Database | Data | MongoDB |
+| Real-time Communication | Communication | Socket.io |
+| Authentication | Security | JWT |
+
+### Tech Stack Graph
+
+```mermaid
+graph TD
+    A[Frontend] --> B[React]
+    A --> C[TypeScript]
+    A --> D[Vite]
+    A --> E[Tailwind CSS]
+    A --> F[Shadcn/ui]
+    A --> G[Lucide React]
+    A --> H[TanStack Query]
+    A --> I[React Router]
+    A --> J[Leaflet]
+    A --> K[Recharts]
+    
+    L[Backend] --> M[Node.js]
+    L --> N[Express]
+    L --> O[MongoDB]
+    L --> P[Socket.io]
+    L --> Q[JWT]
+    
+    B --> R[User Interface]
+    C --> R
+    D --> R
+    E --> R
+    F --> R
+    G --> R
+    H --> R
+    I --> R
+    J --> R
+    K --> R
+    
+    M --> S[API Server]
+    N --> S
+    O --> S
+    P --> S
+    Q --> S
+```
 
 ---
 
